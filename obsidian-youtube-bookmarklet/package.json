@@ -4,10 +4,14 @@
   "description": "Appends current URL in markdown link format, to the Obsidian file 'YouTube Must Download'",
   "main": "index.js",
   "scripts": {
-    "demo": "bookmarklet -d index.js index.html",
-    "build": "bookmarklet index.js bookmarklet.js"
+    "demo": "bookmarklet -d index.js dist/index.html",
+    "build": "bookmarklet index.js dist/bookmarklet.js && bookmarklet -d index.js dist/index.html"
   },
-  "keywords": [ "bookmarklet", "youtube", "obsidian" ],
+  "keywords": [
+    "bookmarklet",
+    "youtube",
+    "obsidian"
+  ],
   "author": "Chad Boyce",
   "license": "ISC",
   "dependencies": {
