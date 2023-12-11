@@ -1,0 +1,19 @@
+{
+  "name": "bookmarklets",
+  "version": "1.0.0",
+  "description": "My Bookmarklets",
+  "scripts": {
+    "demo": "bookmarklet -d view-all-links/index.js dist/index.html",
+    "build": "bookmarklet view-all-links/index.js dist/bookmarklet.js && bookmarklet -d view-all-links/index.js dist/index.html"
+  },
+  "keywords": [
+    "bookmarklet",
+    "javascript",
+    "bookmarklets"
+  ],
+  "author": "Chad Boyce",
+  "license": "ISC",
+  "dependencies": {
+    "bookmarklet": "^3.0.0"
+  }
+}
