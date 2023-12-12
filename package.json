@@ -4,7 +4,8 @@
   "description": "My Bookmarklets",
   "scripts": {
     "dev": "./start.sh",
-    "build": "./start.sh"
+    "build": "./start.sh",
+    "docsdev": "cd docs && pnpm run dev"
   },
   "keywords": [
     "bookmarklet",
