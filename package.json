@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "My Bookmarklets",
   "scripts": {
-    "demo": "bookmarklet -d view-all-links/index.js dist/index.html",
-    "build": "bookmarklet view-all-links/index.js dist/bookmarklet.js && bookmarklet -d view-all-links/index.js dist/index.html"
+    "dev": "./start.sh",
+    "build": "./start.sh"
   },
   "keywords": [
     "bookmarklet",
