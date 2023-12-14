@@ -13,7 +13,10 @@
 	</footer>
 </div>
 
-<style>
+<style lang="postcss">
+	:global(body) {
+		@apply bg-gradient-to-b from-gray-700 via-gray-900 to-black;
+	}
 	.app {
 		display: flex;
 		flex-direction: column;
